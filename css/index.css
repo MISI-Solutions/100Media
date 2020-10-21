@@ -17,7 +17,8 @@
 }
 
 ::selection {
-  background: #3D53A4;
+  background: none;
+  color: #D2AE6C;
 }
 
 body {
@@ -59,7 +60,7 @@ nav ul li {
 nav ul li.active {
   color: #D2AE6C;
 }
-nav ul li.active:after {
+nav ul li.active::after {
   content: "";
   height: 2px;
   width: 50px;
@@ -70,7 +71,7 @@ nav ul li.active:after {
   bottom: -0.5em;
   transition: 0.25s;
 }
-nav ul li.active:hover:after {
+nav ul li.active:hover::after {
   width: 100%;
 }
 nav ul li:hover {
@@ -165,6 +166,118 @@ header .side-content .element h3 {
   font-family: "Tajawal", sans-serif;
   font-weight: bold;
   line-height: 23px;
+}
+
+/** WHO ARE WE **/
+#who-are-we {
+  width: 100%;
+  height: 370px;
+  background: #f2f5ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#who-are-we h2 {
+  color: #B6BAC6;
+  font-size: 3.75em;
+  font-family: "Tajawal", sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.03em;
+  position: relative;
+}
+#who-are-we h2 span {
+  color: #D2AE6C;
+}
+#who-are-we h2::after {
+  content: "";
+  width: 150px;
+  height: 3px;
+  background: #B6BAC6;
+  position: absolute;
+  left: 0;
+  bottom: -0.1em;
+}
+#who-are-we div {
+  display: flex;
+  align-items: center;
+  margin: 3em 3em 3em 0;
+}
+#who-are-we div p {
+  color: #0f1118;
+  font-size: 1.875em;
+  font-family: "Tajawal", sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  width: 1112px;
+  margin-left: 1.5em;
+  line-height: 100%;
+}
+
+/** OUR MISSION **/
+#our-mission {
+  width: 100%;
+  height: 500px;
+  background: #E8EBF3;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+#our-mission div {
+  margin: 6.5em 20em 0 10em;
+  display: flex;
+  flex-direction: column;
+}
+#our-mission div h2 {
+  color: #B6BAC6;
+  font-size: 3.75em;
+  font-family: "Tajawal", sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.03em;
+  position: relative;
+  text-align: center;
+}
+#our-mission div h2 span {
+  color: #D2AE6C;
+}
+#our-mission div h2::after {
+  content: "";
+  width: 150px;
+  height: 3px;
+  background: #B6BAC6;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -0.1em;
+}
+#our-mission div p {
+  color: #0f1118;
+  font-size: 1.875em;
+  font-family: "Tajawal", sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  text-align: justify;
+  line-height: 100%;
+  width: 500px;
+  margin-top: 1em;
+}
+#our-mission div ul {
+  color: #0f1118;
+  font-family: "Tajawal", sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 100%;
+  font-size: 1.875em;
+  margin-top: 1em;
+}
+#our-mission div:first-of-type::after {
+  content: "";
+  background: #B6BAC6;
+  width: 3px;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 /*# sourceMappingURL=index.css.map */
