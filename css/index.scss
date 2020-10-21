@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap');
+
+$primary: #D2AE6C;
+$secondary: #3D53A4;
+$black: #0f1118;
+$white: #f2f5ff;
+$gray1: #E8EBF3;
+$gray2: #CDD0DB;
+$gray3: #B6BAC6;
+
+/** COMPONENTS **/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  cursor: default;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  background: $secondary;
+}
+
+body {
+  background: $white;
+}
+
+.page-space {
+  padding-left: 220px;
+  padding-right: 220px;
+}
+
+/** NAVBAR **/
+nav {
+  background: $black;
+  width: 100vw;
+  height: 100px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    cursor: pointer;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      color: $white;
+      font-size: 1.125em;
+      font-family: 'Tajawal', sans-serif;
+      font-weight: bold;
+      display: inline-block;
+      margin: 1.1em;
+      cursor: pointer;
+      transition: 0.4s;
+      position: relative;
+    }
+
+    li.active {
+      color: $primary;
+    }
+
+    li.active:after {
+      content: "";
+      height: 2px;
+      width: 50px;
+      background: $primary;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -0.5em;
+      transition: 0.25s;
+    }
+
+    li.active:hover:after {
+      width: 100%;
+    }
+
+    li:hover {
+      color: $primary;
+    }
+
+    li:last-of-type {
+      padding: 0.3em 0.5em;
+      margin-right: 0;
+      border: 2px solid $white;
+    }
+
+    li:last-of-type:hover {
+      background: $primary;
+      border: 2px solid $primary;
+      color: $black;
+    }
+  }
+}
+
+/** HEADER **/
+header {
+  width: 100%;
+  height: 540px;
+  background: linear-gradient(180deg, #0F1118 16.67%, rgba(16, 17, 24, 0.41) 100%), linear-gradient(90deg, rgba(61, 83, 164, 0.6) 0%, rgba(210, 174, 108, 0.6) 100.15%, rgba(255, 255, 255, 0) 100.16%, rgba(210, 174, 108, 0.6) 100.16%), url(../media/header-background.png);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .main-content {
+    h1 {
+      color: $white;
+      font-size: 2.5em;
+      font-family: 'Tajawal', sans-serif;
+      font-weight: bold;
+      width: 695px;
+      line-height: 43px;
+      text-align: justify;
+      letter-spacing: -0.03em;
+
+      span {
+        color: $primary;
+      }
+    }
+
+    button {
+      width: 150px;
+      height: 55px;
+      background: $secondary;
+      filter: drop-shadow(0px 0px 15px rgba(61, 83, 164, 0.5));
+      margin-top: 3em;
+      color: $white;
+      font-size: 1.125em;
+      font-family: 'Tajawal', sans-serif;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.4s;
+    }
+
+    button:focus {
+      outline: none;
+    }
+
+    button:hover {
+      background: $white;
+      filter: drop-shadow(0px 0px 15px rgba(242, 245, 255, 0.5));
+      color: $secondary;
+    }
+  }
+
+  .side-content {
+    width: 425px;
+    height: 460px;
+    background: $white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 50px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 3em;
+
+    .element {
+      width: 320px;
+      height: 70px;
+      border: 2px solid $secondary;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h2 {
+        color: $secondary;
+        font-size: 1.875em;
+        font-family: 'Tajawal', sans-serif;
+        font-weight: bold;
+        line-height: 30px;
+      }
+
+      h3 {
+        color: $gray3;
+        font-size: 1.2em;
+        font-family: 'Tajawal', sans-serif;
+        font-weight: bold;
+        line-height: 23px;
+      }
+    }
+  }
+}

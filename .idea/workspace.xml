@@ -11,17 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4d1ba4f-bf11-46c6-9a56-ef86541c2968" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/100media.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/countUp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/counter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/header-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/logo-large.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,8 +78,17 @@
       <updated>1603284142499</updated>
       <workItem from="1603284143597" duration="1010000" />
       <workItem from="1603285168775" duration="1534000" />
-      <workItem from="1603286711069" duration="9328000" />
+      <workItem from="1603286711069" duration="9416000" />
+      <workItem from="1603313380871" duration="1537000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: Added Header">
+      <created>1603297223751</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603297223751</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +108,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat: Added Header" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Added Header" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1167" y="533" width="677" height="333" key="#File_Watchers" timestamp="1603284833014">
@@ -123,6 +129,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="344" key="SettingsEditor/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603287253335" />
+    <state x="1127" y="606" key="VCS.ChangelistChooser" timestamp="1603297167128">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1127" y="606" key="VCS.ChangelistChooser/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603297167128" />
+    <state x="872" y="428" key="Vcs.Push.Dialog.v2" timestamp="1603297225242">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603297225242" />
     <state x="936" y="330" key="run.anything.popup" timestamp="1603285317501">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
