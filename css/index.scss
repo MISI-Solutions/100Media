@@ -39,6 +39,26 @@ body {
   padding-right: 220px;
 }
 
+.separator {
+  width: 100%;
+  height: 15px;
+  background: $secondary;
+  position: relative;
+}
+
+.separator::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid $secondary;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -0.9em;
+}
+
 /** NAVBAR **/
 nav {
   background: $black;
@@ -48,6 +68,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 999;
 
   .logo {
     cursor: pointer;
@@ -318,5 +339,149 @@ header {
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+  }
+}
+
+/** SHOCASE **/
+#showcase {
+  width: 100%;
+  height: 800px;
+  background: $secondary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  video {
+    border-radius: 112px;
+  }
+}
+
+/** WHAT WE DO **/
+#what-we-do {
+  width: 100%;
+  height: 300px;
+  background: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    color: $gray3;
+    font-size: 3.75em;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    position: relative;
+    text-align: center;
+
+    span {
+      color: $secondary;
+    }
+  }
+
+  h2::after {
+    content: "";
+    width: 150px;
+    height: 3px;
+    background: $gray3;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -0.1em;
+  }
+
+  p {
+    color: $black;
+    font-size: 1.875em;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    text-align: center;
+    line-height: 100%;
+    width: 1200px;
+    margin-top: 1em;
+  }
+}
+
+/** WHAT IS KEEPING IT 100 **/
+#what-is-keeping-it-100 {
+  width: 100%;
+  height: 800px;
+  background: $gray1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    color: $gray3;
+    font-size: 3.75em;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    position: relative;
+    text-align: center;
+    width: 989px;
+    line-height: 100%;
+
+    span {
+      color: $primary;
+    }
+  }
+
+  h2::after {
+    content: "";
+    width: 150px;
+    height: 3px;
+    background: $gray3;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -0.5em;
+  }
+
+  ul {
+    margin-top: 3em;
+    list-style: none;
+
+    li {
+      position: relative;
+      margin: 1em;
+      padding-left: 3em;
+      color: $black;
+      font-size: 1.875em;
+      font-family: 'Tajawal', sans-serif;
+      font-weight: 500;
+      letter-spacing: -0.03em;
+      line-height: 100%;
+      width: 1200px;
+    }
+
+    li::before {
+      content: "";
+      width: 28px;
+      height: 28px;
+      position: absolute;
+      background-image: url("../media/checkmark.png");
+      background-size: cover;
+      background-position: center;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    li:last-of-type {
+      margin-top: 3em;
+    }
+
+    li:last-of-type::before {
+      background-image: url("../media/quote.png");
+      background-size: cover;
+      background-position: center;
+      width: 28px;
+      height: 23px;
+      top: 0.45em;
+    }
   }
 }
