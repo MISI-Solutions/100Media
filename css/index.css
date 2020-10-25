@@ -432,4 +432,130 @@ header .side-content .element h3 {
   top: 0.45em;
 }
 
+#why-brands-and-influencers-love-to-partner-with-us {
+  width: 100%;
+  height: 600px;
+  background: #f2f5ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#why-brands-and-influencers-love-to-partner-with-us h2 {
+  color: #B6BAC6;
+  font-size: 3.75em;
+  font-family: "Tajawal", sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.03em;
+  position: relative;
+  text-align: center;
+  width: 989px;
+  line-height: 100%;
+}
+#why-brands-and-influencers-love-to-partner-with-us h2 span {
+  color: #D2AE6C;
+}
+#why-brands-and-influencers-love-to-partner-with-us h2::after {
+  content: "";
+  width: 150px;
+  height: 3px;
+  background: #B6BAC6;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -0.5em;
+}
+#why-brands-and-influencers-love-to-partner-with-us p {
+  color: #0f1118;
+  font-size: 1.875em;
+  font-family: "Tajawal", sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  text-align: center;
+  line-height: 100%;
+  width: 1200px;
+  margin-top: 2.5em;
+}
+#why-brands-and-influencers-love-to-partner-with-us p strong {
+  font-weight: bold;
+  font-size: 2.1875rem;
+}
+#why-brands-and-influencers-love-to-partner-with-us img {
+  margin-top: 2em;
+  cursor: pointer;
+  animation: arrowDown 3s ease-in-out infinite;
+}
+
+#client-results {
+  width: 100%;
+  height: 700px;
+  background: linear-gradient(180deg, rgba(210, 174, 108, 0.2) 0%, rgba(255, 255, 255, 0) 100%), #0F1118;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#client-results h2 {
+  color: #B6BAC6;
+  font-size: 3.75em;
+  font-family: "Tajawal", sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.03em;
+  position: relative;
+  text-align: center;
+  width: 989px;
+  line-height: 100%;
+}
+#client-results h2 span {
+  color: #D2AE6C;
+}
+#client-results h2::after {
+  content: "";
+  width: 150px;
+  height: 3px;
+  background: #B6BAC6;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -0.5em;
+}
+#client-results div {
+  width: 900px;
+  margin-top: 5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#client-results div img {
+  width: 270px;
+  height: 270px;
+  position: relative;
+}
+#client-results div img:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+#client-results div img.active {
+  width: 300px;
+  height: 300px;
+}
+
+/** ANIMATIONS **/
+@keyframes arrowDown {
+  0% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(0.8em);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 /*# sourceMappingURL=index.css.map */
