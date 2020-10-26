@@ -11,10 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4d1ba4f-bf11-46c6-9a56-ef86541c2968" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/arrow-down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/client1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/client2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/client3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/arrow.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
@@ -63,12 +60,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\miste\PhpstormProjects\100media\media" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\miste\PhpstormProjects\100media\media" />
       <recent name="C:\Users\miste\PhpstormProjects\100media\js" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\miste\PhpstormProjects\100media\media" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -89,7 +86,9 @@
       <workItem from="1603286711069" duration="9416000" />
       <workItem from="1603313380871" duration="5816000" />
       <workItem from="1603358502873" duration="6367000" />
-      <workItem from="1603640446431" duration="3098000" />
+      <workItem from="1603640446431" duration="3140000" />
+      <workItem from="1603660182435" duration="39000" />
+      <workItem from="1603670181154" duration="1414000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Added Header">
       <created>1603297223751</created>
@@ -119,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603372509162</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: Added why brands love to partner us section&#10;feat: Added Client Results section">
+      <created>1603643789445</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603643789445</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +149,8 @@
     <MESSAGE value="feat: Added hover effects to Header" />
     <MESSAGE value="feat: Added WHO ARE WE Section&#10;feat: Added OUR MISSION Section" />
     <MESSAGE value="feat: Added WHAT WE DO Section&#10;feat: Added WHAT IS KEEPING IT 100 Section&#10;feat: Added Separator" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Added WHAT WE DO Section&#10;feat: Added WHAT IS KEEPING IT 100 Section&#10;feat: Added Separator" />
+    <MESSAGE value="feat: Added why brands love to partner us section&#10;feat: Added Client Results section" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Added why brands love to partner us section&#10;feat: Added Client Results section" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -167,14 +174,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1127" y="606" key="VCS.ChangelistChooser/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603297167128" />
-    <state x="872" y="428" key="Vcs.Push.Dialog.v2" timestamp="1603372511257">
+    <state x="872" y="428" key="Vcs.Push.Dialog.v2" timestamp="1603643790714">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603372511257" />
-    <state x="936" y="330" key="run.anything.popup" timestamp="1603285317501">
+    <state x="872" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603643790714" />
+    <state x="936" y="330" width="672" height="677" key="run.anything.popup" timestamp="1603660186008">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="936" y="330" key="run.anything.popup/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603285317501" />
+    <state x="936" y="330" width="672" height="677" key="run.anything.popup/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603660186008" />
     <state x="1071" y="679" key="scopes" timestamp="1603286861812">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

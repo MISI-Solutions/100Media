@@ -525,24 +525,77 @@ header .side-content .element h3 {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  position: relative;
 }
 #client-results div img {
   width: 270px;
   height: 270px;
-  position: relative;
-}
-#client-results div img:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.6);
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  filter: brightness(0.4);
 }
 #client-results div img.active {
   width: 300px;
   height: 300px;
+  filter: none;
+}
+#client-results div #slider-previous {
+  width: 270px;
+  height: 270px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+#client-results div #slider-previous img {
+  width: 10.25px;
+  height: 20.5px;
+  filter: none;
+  transform: rotate(-180deg);
+  margin-left: 1em;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#client-results div #slider-previous img:hover {
+  filter: brightness(2);
+}
+#client-results div #slider-next {
+  width: 270px;
+  height: 270px;
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#client-results div #slider-next img {
+  width: 10.25px;
+  height: 20.5px;
+  filter: none;
+  margin-right: 1em;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#client-results div #slider-next img:hover {
+  filter: brightness(2);
+}
+#client-results button {
+  width: 368px;
+  height: 83px;
+  background: none;
+  border: 2px solid #D2AE6C;
+  margin-top: 3em;
+  color: #f2f5ff;
+  font-size: 1.875rem;
+  font-family: "Tajawal", sans-serif;
+  font-weight: bold;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#client-results button:focus {
+  outline: none;
+}
+#client-results button:hover {
+  color: #D2AE6C;
 }
 
 /** ANIMATIONS **/

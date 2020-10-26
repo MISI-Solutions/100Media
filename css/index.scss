@@ -588,25 +588,88 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    position: relative;
 
     img {
       width: 270px;
       height: 270px;
-      position: relative;
-    }
-
-    img:before {
-      content: "";
-      background: rgba(0, 0, 0, 0.6);
-      position: absolute;
-      left: 0; right: 0;
-      top: 0; bottom: 0;
+      filter: brightness(0.4);
     }
 
     img.active {
       width: 300px;
       height: 300px;
+      filter: none;
     }
+
+    #slider-previous {
+      width: 270px;
+      height: 270px;
+      position: absolute;
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 10.25px;
+        height: 20.5px;
+        filter: none;
+        transform: rotate(-180deg);
+        margin-left: 1em;
+        cursor: pointer;
+        transition: 0.4s;
+      }
+
+      img:hover {
+        filter: brightness(2);
+      }
+    }
+
+    #slider-next {
+      width: 270px;
+      height: 270px;
+      position: absolute;
+      right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      img {
+        width: 10.25px;
+        height: 20.5px;
+        filter: none;
+        margin-right: 1em;
+        cursor: pointer;
+        transition: 0.4s;
+      }
+
+      img:hover {
+        filter: brightness(2);
+      }
+    }
+  }
+
+  button {
+    width: 368px;
+    height: 83px;
+    background: none;
+    border: 2px solid $primary;
+    margin-top: 3em;
+    color: $white;
+    font-size: 1.875rem;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+
+  button:focus {
+    outline: none;
+  }
+
+  button:hover {
+    color: $primary;
   }
 }
 
