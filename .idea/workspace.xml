@@ -11,23 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4d1ba4f-bf11-46c6-9a56-ef86541c2968" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/videos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/contact-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/industry.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/play-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/slides/client4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/slides/client5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/slides/client6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/client1.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/slides/client1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/client2.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/slides/client2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/client3.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/slides/client3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/slider.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +94,9 @@
       <workItem from="1603723437515" duration="2572000" />
       <workItem from="1603734767869" duration="2831000" />
       <workItem from="1603742995052" duration="1901000" />
-      <workItem from="1603785533038" duration="9516000" />
+      <workItem from="1603785533038" duration="9567000" />
+      <workItem from="1603801686639" duration="2300000" />
+      <workItem from="1603826722462" duration="2030000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Added Header">
       <created>1603297223751</created>
@@ -149,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603671610443</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: Added remaining Sections">
+      <created>1603795076709</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603795076709</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +173,8 @@
     <MESSAGE value="feat: Added WHAT WE DO Section&#10;feat: Added WHAT IS KEEPING IT 100 Section&#10;feat: Added Separator" />
     <MESSAGE value="feat: Added why brands love to partner us section&#10;feat: Added Client Results section" />
     <MESSAGE value="fix: Added remaining css to client results section" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: Added remaining css to client results section" />
+    <MESSAGE value="feat: Added remaining Sections" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Added remaining Sections" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -199,10 +198,11 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1127" y="606" key="VCS.ChangelistChooser/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603297167128" />
-    <state x="872" y="428" key="Vcs.Push.Dialog.v2" timestamp="1603671611546">
+    <state x="872" y="428" key="Vcs.Push.Dialog.v2" timestamp="1603795077962">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="872" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603671611546" />
+    <state x="872" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1603795077962" />
     <state x="1097" y="609" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603739561016">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

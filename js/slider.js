@@ -5,8 +5,8 @@ let slides = [];
 
 function createSlides() {
     let order = 0;
-    document.querySelectorAll("#client-results div img").forEach((item) => {
-        if(item.getAttribute("src").includes("arrow")) return;
+    document.querySelectorAll("#client-results #slides .slide").forEach((item) => {
+        if(item.firstElementChild.getAttribute("src").includes("arrow")) return;
         slides.push(item);
         item.style.order = order;
         order++;
@@ -30,7 +30,6 @@ sliderPrevious.addEventListener("click", () => {
         const order = parseInt(item.style.order);
         item.style.order = order+1;
         if(item.style.order >= slides.length) item.style.order = 0;
-
     });
 
     refreshSlides();
