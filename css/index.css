@@ -21,7 +21,8 @@
   color: #D2AE6C;
 }
 
-body {
+body, html {
+  height: 100%;
   background: #f2f5ff;
 }
 
@@ -531,11 +532,15 @@ header .side-content .element h3 {
   width: 270px;
   height: 270px;
   filter: brightness(0.4);
+  transition: filter 0.4s ease-in;
 }
 #client-results div img.active {
   width: 300px;
   height: 300px;
   filter: none;
+}
+#client-results div img.hidden {
+  display: none;
 }
 #client-results div #slider-previous {
   width: 270px;
@@ -596,6 +601,321 @@ header .side-content .element h3 {
 }
 #client-results button:hover {
   color: #D2AE6C;
+}
+
+#our-industries {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3em;
+  background: #E8EBF3;
+}
+#our-industries h2 {
+  color: #B6BAC6;
+  font-size: 3.75em;
+  font-family: "Tajawal", sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.03em;
+  position: relative;
+  text-align: center;
+  width: 989px;
+  line-height: 100%;
+}
+#our-industries h2 span {
+  color: #3D53A4;
+}
+#our-industries h2::after {
+  content: "";
+  width: 150px;
+  height: 3px;
+  background: #B6BAC6;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -0.5em;
+}
+#our-industries .industry {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  overflow-x: hidden;
+}
+#our-industries .industry div {
+  height: 150px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+#our-industries .industry div h3 {
+  font-size: 12.5em;
+  color: #B6BAC6;
+  font-family: "Tajawal", sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.03em;
+  line-height: 100%;
+}
+#our-industries .industry div h4 {
+  color: #3D53A4;
+  font-size: 3.75em;
+  font-family: "Tajawal", sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.03em;
+  line-height: 100%;
+}
+#our-industries .industry div.left {
+  margin-left: -2em;
+  margin-right: 2em;
+}
+#our-industries .industry div.left h4 {
+  margin-left: 0.5rem;
+}
+#our-industries .industry div.right {
+  margin-left: 3em;
+  margin-right: -1em;
+  justify-content: flex-end;
+}
+#our-industries .industry div.right h4 {
+  margin-right: 0.5rem;
+}
+#our-industries .industry .video {
+  width: 556px;
+  height: 634px;
+  position: relative;
+  margin-left: 3em;
+}
+#our-industries .industry .video video {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+#our-industries .industry .video video.paused {
+  filter: brightness(0.4);
+}
+#our-industries .industry .video img {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  filter: drop-shadow(0px 0px 12px rgba(61, 83, 164, 0.5));
+  cursor: pointer;
+}
+#our-industries .industry:first-of-type {
+  margin-top: 10em;
+}
+#our-industries .industry.right {
+  justify-content: flex-end;
+}
+#our-industries .industry:last-of-type {
+  margin-bottom: 10em;
+}
+
+#testimonials {
+  width: 100%;
+  height: 800px;
+  background: #f2f5ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#testimonials h2 {
+  color: #D2AE6C;
+  font-size: 3.75em;
+  font-family: "Tajawal", sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.03em;
+  position: relative;
+  text-align: center;
+  width: 989px;
+  line-height: 100%;
+}
+#testimonials h2::after {
+  content: "";
+  width: 150px;
+  height: 3px;
+  background: #B6BAC6;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -0.5em;
+}
+#testimonials div:not(.video) {
+  margin-top: 5em;
+  display: flex;
+}
+#testimonials div:not(.video) .video {
+  width: 380px;
+  height: 530px;
+  margin: 0 1.5em;
+  position: relative;
+}
+#testimonials div:not(.video) .video video {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+#testimonials div:not(.video) .video video.paused {
+  filter: brightness(0.4);
+}
+#testimonials div:not(.video) .video img {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  filter: drop-shadow(0px 0px 12px rgba(210, 174, 108, 0.5));
+  cursor: pointer;
+}
+
+#contact {
+  width: 100%;
+  height: 1300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, #0F1118 90.88%), linear-gradient(90deg, rgba(61, 83, 164, 0.3) 0%, rgba(210, 174, 108, 0.3) 100%), url("../media/contact-bg.png"), #0F1118;
+  background-size: cover;
+}
+#contact h2 {
+  color: #B6BAC6;
+  font-size: 3.75em;
+  font-family: "Tajawal", sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.03em;
+  position: relative;
+  text-align: center;
+  width: 989px;
+  line-height: 100%;
+}
+#contact h2 span {
+  color: #D2AE6C;
+}
+#contact h2::after {
+  content: "";
+  width: 150px;
+  height: 3px;
+  background: #B6BAC6;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -0.5em;
+}
+#contact form {
+  margin-top: 5em;
+  width: 1000px;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact form div {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+#contact form div input {
+  width: 480px;
+  height: 100px;
+  background: none;
+  border: 3px solid #D2AE6C;
+  backdrop-filter: blur(15px);
+  color: #f2f5ff;
+  font-family: "Tajawal", sans-serif;
+  font-weight: 400;
+  font-size: 1.875em;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  padding: 0 1em;
+  cursor: text;
+}
+#contact form div input:focus {
+  outline: none;
+}
+#contact form div input::placeholder {
+  color: #B6BAC6;
+}
+#contact form textarea {
+  margin-top: 1em;
+  width: 996px;
+  height: 250px;
+  background: none;
+  border: 3px solid #D2AE6C;
+  backdrop-filter: blur(15px);
+  color: #f2f5ff;
+  font-family: "Tajawal", sans-serif;
+  font-weight: 400;
+  font-size: 1.875em;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  padding: 1em;
+  resize: none;
+  cursor: text;
+}
+#contact form textarea:focus {
+  outline: none;
+}
+#contact form textarea::placeholder {
+  color: #B6BAC6;
+}
+#contact form #contact-send {
+  margin-top: 3em;
+  width: 450px;
+  height: 100px;
+  background: #D2AE6C;
+  color: #f2f5ff;
+  font-family: "Tajawal", sans-serif;
+  font-weight: bold;
+  font-size: 1.875em;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#contact form #contact-send:hover {
+  background: #f2f5ff;
+  color: #D2AE6C;
+}
+#contact form #contact-send:focus {
+  outline: none;
+}
+
+footer {
+  width: 100%;
+  height: 150px;
+  background: #0f1118;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 400;
+  font-size: 1.25em;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #B6BAC6;
+}
+footer p a {
+  text-decoration: none;
+  color: #B6BAC6;
+  cursor: pointer;
+  transition: 0.4s;
+}
+footer p a:hover {
+  color: #ef007d;
 }
 
 /** ANIMATIONS **/

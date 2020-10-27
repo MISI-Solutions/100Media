@@ -7,6 +7,8 @@
         <link href="css/index.css" type="text/css" rel="stylesheet">
 
         <script src="js/counter.js" type="module" defer></script>
+        <script src="js/slider.js" defer></script>
+        <script src="js/videos.js" defer></script>
     </head>
 
     <body>
@@ -99,15 +101,80 @@
         <section id="client-results">
             <h2><span>CLIENT</span> RESULTS</h2>
             <div>
-                <img src="media/client1.png" alt="client">
-                <img src="media/client2.png" class="active" alt="client">
-                <img src="media/client3.png" alt="client">
+                <img src="media/slides/client1.png" alt="client">
+                <img src="media/slides/client2.png" alt="client">
+                <img src="media/slides/client3.png" alt="client">
+                <img src="media/slides/client4.png" alt="client">
+                <img src="media/slides/client5.png" alt="client">
+                <img src="media/slides/client6.png" alt="client">
                 <div id="slider-previous"><img src="media/arrow.png" alt="arrow left" width="15" height="25"></div>
                 <div id="slider-next"><img src="media/arrow.png" alt="arrow right" width="15" height="25"></div>
             </div>
             <button>BECOME A SUCCESS STORY</button>
         </section>
 
-        <script> </script>
+        <section id="our-industries">
+            <h2><span>OUR</span> INDUSTRIES</h2>
+            <div class="industry">
+                <div class="left"><h3>01</h3><h4>EDUCATION</h4></div>
+                <div class="video"><video class="paused"><source src="media/industry.mp4" type="video/mp4"></video><img src="media/play.png" alt="play button" width="80" height="80"></div>
+                <div class="video"><video class="paused"><source src="media/industry.mp4" type="video/mp4"></video><img src="media/play.png" alt="play button" width="80" height="80"></div>
+            </div>
+            <div class="industry right">
+                <div class="video"><video class="paused"><source src="media/industry.mp4" type="video/mp4"></video><img src="media/play.png" alt="play button" width="80" height="80"></div>
+                <div class="video"><video class="paused"><source src="media/industry.mp4" type="video/mp4"></video><img src="media/play.png" alt="play button" width="80" height="80"></div>
+                <div class="right"><h4>GAMING</h4><h3>02</h3></div>
+            </div>
+            <div class="industry">
+                <div class="left"><h3>03</h3><h4>AUTOMOTIVE</h4></div>
+                <div class="video"><video class="paused"><source src="media/industry.mp4" type="video/mp4"></video><img src="media/play.png" alt="play button" width="80" height="80"></div>
+                <div class="video"><video class="paused"><source src="media/industry.mp4" type="video/mp4"></video><img src="media/play.png" alt="play button" width="80" height="80"></div>
+            </div>
+            <div class="industry right">
+                <div class="video"><video class="paused"><source src="media/industry.mp4" type="video/mp4"></video><img src="media/play.png" alt="play button" width="80" height="80"></div>
+                <div class="video"><video class="paused"><source src="media/industry.mp4" type="video/mp4"></video><img src="media/play.png" alt="play button" width="80" height="80"></div>
+                <div class="right"><h4>LIFESTYLE</h4><h3>04</h3></div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <h2>TESTIMONIALS</h2>
+            <div>
+                <div class="video"><video class="paused"><source src="media/industry.mp4" type="video/mp4"></video><img src="media/play-2.png" alt="play button" width="80" height="80"></div>
+                <div class="video"><video class="paused"><source src="media/industry.mp4" type="video/mp4"></video><img src="media/play-2.png" alt="play button" width="80" height="80"></div>
+                <div class="video"><video class="paused"><source src="media/industry.mp4" type="video/mp4"></video><img src="media/play-2.png" alt="play button" width="80" height="80"></div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2><span>CONTACT</span> US</h2>
+            <form>
+                <div>
+                    <label>.<input type="text" name="companyName" placeholder="Company Name" id="contact-companyName"></label>
+                    <label>.<input type="url" name="website" placeholder="Website" id="contact-website"></label>
+                </div>
+                <div>
+                    <label>.<input type="text" name="firstName" placeholder="First Name" id="contact-firstName"></label>
+                    <label>.<input type="text" name="lastName" placeholder="Last Name" id="contact-lastName"></label>
+                </div>
+                <div>
+                    <label>.<input type="email" name="emailAddress" placeholder="Email Address" id="contact-emailAddress"></label>
+                    <label>.<input type="tel" name="phoneNumber" placeholder="Phone Number" id="contact-phoneNumber"></label>
+                </div>
+                <label>.<textarea name="message" placeholder="Your Message" id="contact-message"></textarea></label>
+                <input id="contact-send" type="button" name="send" value="SEND" />
+            </form>
+        </section>
+
+        <section id="instagram">
+
+        </section>
+
+        <footer>
+            <div>
+
+            </div>
+            <p>© Copyright 2020 - 100Media - Created by <a href="https://misi.solutions/" target="_blank">MISI Solutions</a></p>
+        </footer>
     </body>
 </html>

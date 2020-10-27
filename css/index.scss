@@ -30,7 +30,8 @@ $gray3: #B6BAC6;
   color: $primary;
 }
 
-body {
+body, html {
+  height: 100%;
   background: $white;
 }
 
@@ -594,12 +595,17 @@ header {
       width: 270px;
       height: 270px;
       filter: brightness(0.4);
+      transition: filter 0.4s ease-in;
     }
 
     img.active {
       width: 300px;
       height: 300px;
       filter: none;
+    }
+
+    img.hidden {
+      display: none;
     }
 
     #slider-previous {
@@ -670,6 +676,363 @@ header {
 
   button:hover {
     color: $primary;
+  }
+}
+
+#our-industries {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3em;
+  background: $gray1;
+
+  h2 {
+    color: $gray3;
+    font-size: 3.75em;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    position: relative;
+    text-align: center;
+    width: 989px;
+    line-height: 100%;
+
+    span {
+      color: $secondary;
+    }
+  }
+
+  h2::after {
+    content: "";
+    width: 150px;
+    height: 3px;
+    background: $gray3;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -0.5em;
+  }
+
+  .industry {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    overflow-x: hidden;
+
+    div {
+      height: 150px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      margin-top: 0;
+
+      h3 {
+        font-size: 12.5em;
+        color: $gray3;
+        font-family: 'Tajawal', sans-serif;
+        font-weight: bold;
+        letter-spacing: -0.03em;
+        line-height: 100%;
+      }
+
+      h4 {
+        color: $secondary;
+        font-size: 3.75em;
+        font-family: 'Tajawal', sans-serif;
+        font-weight: bold;
+        letter-spacing: -0.03em;
+        line-height: 100%;
+      }
+    }
+
+    div.left {
+      margin-left: -2em;
+      margin-right: 2em;
+
+      h4 {
+        margin-left: 0.5rem;
+      }
+    }
+
+    div.right {
+      margin-left: 3em;
+      margin-right: -1em;
+      justify-content: flex-end;
+
+      h4 {
+        margin-right: 0.5rem;
+      }
+    }
+
+    .video {
+      width: 556px;
+      height: 634px;
+      position: relative;
+      margin-left: 3em;
+
+      video {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+      }
+
+      video.paused {
+        filter: brightness(0.4);
+      }
+    }
+
+    .video img {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      filter: drop-shadow(0px 0px 12px rgba(61, 83, 164, 0.5));
+      cursor: pointer;
+    }
+  }
+
+  .industry:first-of-type {
+    margin-top: 10em;
+  }
+
+  .industry.right {
+    justify-content: flex-end;
+  }
+
+  .industry:last-of-type {
+    margin-bottom: 10em;
+  }
+}
+
+#testimonials {
+  width: 100%;
+  height: 800px;
+  background: $white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    color: $primary;
+    font-size: 3.75em;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    position: relative;
+    text-align: center;
+    width: 989px;
+    line-height: 100%;
+  }
+
+  h2::after {
+    content: "";
+    width: 150px;
+    height: 3px;
+    background: $gray3;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -0.5em;
+  }
+
+  div:not(.video) {
+    margin-top: 5em;
+    display: flex;
+
+    .video {
+      width: 380px;
+      height: 530px;
+      margin: 0 1.5em;
+      position: relative;
+
+      video {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+      }
+
+      video.paused {
+        filter: brightness(0.4);
+      }
+
+      img {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        filter: drop-shadow(0px 0px 12px rgba(210, 174, 108, 0.5));
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+#contact {
+  width: 100%;
+  height: 1300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.42) 0%, #0F1118 90.88%), linear-gradient(90deg, rgba(61, 83, 164, 0.3) 0%, rgba(210, 174, 108, 0.3) 100%), url("../media/contact-bg.png"), #0F1118;
+  background-size: cover;
+
+  h2 {
+    color: $gray3;
+    font-size: 3.75em;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    position: relative;
+    text-align: center;
+    width: 989px;
+    line-height: 100%;
+
+    span {
+      color: $primary;
+    }
+  }
+
+  h2::after {
+    content: "";
+    width: 150px;
+    height: 3px;
+    background: $gray3;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -0.5em;
+  }
+
+  form {
+    margin-top: 5em;
+    width: 1000px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    div {
+      width: 100%;
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1em;
+
+      input {
+        width: 480px;
+        height: 100px;
+        background: none;
+        border: 3px solid $primary;
+        backdrop-filter: blur(15px);
+        color: $white;
+        font-family: 'Tajawal', sans-serif;
+        font-weight: 400;
+        font-size: 1.875em;
+        line-height: 100%;
+        letter-spacing: -0.03em;
+        padding: 0 1em;
+        cursor: text;
+      }
+
+      input:focus {
+        outline: none;
+      }
+
+      input::placeholder {
+        color: $gray3;
+      }
+    }
+
+    textarea {
+      margin-top: 1em;
+      width: 996px;
+      height: 250px;
+      background: none;
+      border: 3px solid $primary;
+      backdrop-filter: blur(15px);
+      color: $white;
+      font-family: 'Tajawal', sans-serif;
+      font-weight: 400;
+      font-size: 1.875em;
+      line-height: 100%;
+      letter-spacing: -0.03em;
+      padding: 1em;
+      resize: none;
+      cursor: text;
+    }
+
+    textarea:focus {
+      outline: none;
+    }
+
+    textarea::placeholder {
+      color: $gray3;
+    }
+
+    #contact-send {
+      margin-top: 3em;
+      width: 450px;
+      height: 100px;
+      background: $primary;
+      color: $white;
+      font-family: 'Tajawal', sans-serif;
+      font-weight: bold;
+      font-size: 1.875em;
+      line-height: 100%;
+      letter-spacing: -0.03em;
+      text-align: center;
+      cursor: pointer;
+      transition: 0.4s;
+    }
+
+    #contact-send:hover {
+      background: $white;
+      color: $primary;
+    }
+
+    #contact-send:focus {
+      outline: none;
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  height: 150px;
+  background: $black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: $gray3;
+
+    a {
+      text-decoration: none;
+      color: $gray3;
+      cursor: pointer;
+      transition: 0.4s;
+    }
+
+    a:hover {
+      color: #ef007d;
+    }
   }
 }
 
