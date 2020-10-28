@@ -9,24 +9,25 @@
         <script src="js/counter.js" type="module" defer></script>
         <script src="js/slider.js" defer></script>
         <script src="js/videos.js" defer></script>
+        <script src="js/scrolling.js" defer></script>
     </head>
 
     <body>
         <nav class="page-space">
-            <img class="logo" src="media/logo-large.png" alt="logo" width="220" height="65">
+            <img scroll="top" class="logo" src="media/logo-large.png" alt="logo" width="220" height="65">
             <ul>
-                <li class="active">WHO ARE WE</li>
-                <li>WHAT WE DO</li>
-                <li>OUR INDUSTRIES</li>
-                <li>CASE STUDIES</li>
-                <li>CONTACT US</li>
+                <li scroll="scroll-who-are-we">WHO ARE WE</li>
+                <li scroll="scroll-what-we-do">WHAT WE DO</li>
+                <li scroll="scroll-client-results">CASE STUDIES</li>
+                <li scroll="scroll-our-industries">OUR INDUSTRIES</li>
+                <li scroll="scroll-contact">CONTACT US</li>
             </ul>
         </nav>
 
         <header class="page-space">
             <div class="main-content">
                 <h1>THE MULTIMEDIA <span>TALENT MANAGEMENT</span> AGENCY MAKING A SHIFT OF CREATIVE IMPACT GLOBALLY</h1>
-                <button>LEARN MORE</button>
+                <button scroll="scroll-contact">LEARN MORE</button>
             </div>
             <div class="side-content">
                 <div class="element">
@@ -44,6 +45,7 @@
             </div>
         </header>
 
+        <div class="scrolling-position" id="scroll-who-are-we"></div>
         <section id="who-are-we" class="page-space">
             <h2><span>WHO</span> ARE WE</h2>
             <div>
@@ -75,6 +77,7 @@
             </video>
         </section>
 
+        <div class="scrolling-position" id="scroll-what-we-do"></div>
         <section id="what-we-do">
             <h2><span>WHAT</span> WE DO</h2>
             <p>We streamline the content process for creators while we take on the difficulties that lead to success. A creator should create. A family should manage.</p>
@@ -98,6 +101,7 @@
             <img src="media/arrow-down.png" alt="arrow down" width="63" height="63">
         </section>
 
+        <div class="scrolling-position" id="scroll-client-results"></div>
         <section id="client-results">
             <h2><span>CLIENT</span> RESULTS</h2>
             <div id="slides">
@@ -110,9 +114,10 @@
                 <div id="slider-previous"><img src="media/arrow.png" alt="arrow left" width="15" height="25"></div>
                 <div id="slider-next"><img src="media/arrow.png" alt="arrow right" width="15" height="25"></div>
             </div>
-            <button>BECOME A SUCCESS STORY</button>
+            <button scroll="scroll-contact">BECOME A SUCCESS STORY</button>
         </section>
 
+        <div class="scrolling-position" id="scroll-our-industries"></div>
         <section id="our-industries">
             <h2><span>OUR</span> INDUSTRIES</h2>
             <div class="industry">
@@ -146,6 +151,7 @@
             </div>
         </section>
 
+        <div class="scrolling-position" id="scroll-contact"></div>
         <section id="contact">
             <h2><span>CONTACT</span> US</h2>
             <form>
@@ -172,7 +178,10 @@
 
         <footer>
             <div>
-
+                <a href="" target="_blank"><img src="media/facebook.png" alt="facebook" width="21" height="36"></a>
+                <a href="" target="_blank"><img src="media/instagram.png" alt="instagram" width="35" height="36"></a>
+                <a href="" target="_blank"><img src="media/twitter.png" alt="twitter" width="42" height="36"></a>
+                <a href="" target="_blank"><img src="media/youtube.png" alt="youtube" width="36" height="27"></a>
             </div>
             <p>© Copyright 2020 - 100Media - Created by <a href="https://misi.solutions/" target="_blank">MISI Solutions</a></p>
         </footer>

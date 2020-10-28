@@ -11,12 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4d1ba4f-bf11-46c6-9a56-ef86541c2968" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/scrolling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/youtube.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/slider.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +64,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\miste\PhpstormProjects\100media\media" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\miste\PhpstormProjects\100media\media" />
       <recent name="C:\Users\miste\PhpstormProjects\100media\media\slides" />
       <recent name="C:\Users\miste\PhpstormProjects\100media\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\miste\PhpstormProjects\100media\media" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -96,7 +100,9 @@
       <workItem from="1603742995052" duration="1901000" />
       <workItem from="1603785533038" duration="9567000" />
       <workItem from="1603801686639" duration="2300000" />
-      <workItem from="1603826722462" duration="2030000" />
+      <workItem from="1603826722462" duration="2664000" />
+      <workItem from="1603881746464" duration="2814000" />
+      <workItem from="1603894252837" duration="1739000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Added Header">
       <created>1603297223751</created>
@@ -147,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603795076709</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix: Fixed whitespace&#10;feat: Added hover to slider">
+      <created>1603828779475</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603828779475</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +187,8 @@
     <MESSAGE value="feat: Added why brands love to partner us section&#10;feat: Added Client Results section" />
     <MESSAGE value="fix: Added remaining css to client results section" />
     <MESSAGE value="feat: Added remaining Sections" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Added remaining Sections" />
+    <MESSAGE value="fix: Fixed whitespace&#10;feat: Added hover to slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: Fixed whitespace&#10;feat: Added hover to slider" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -198,10 +212,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1127" y="606" key="VCS.ChangelistChooser/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603297167128" />
-    <state x="872" y="428" key="Vcs.Push.Dialog.v2" timestamp="1603795077962">
+    <state x="872" y="428" key="Vcs.Push.Dialog.v2" timestamp="1603828791169">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603671611546" />
+    <state x="872" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603828791169" />
     <state x="872" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1603795077962" />
     <state x="1097" y="609" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603739561016">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -215,9 +229,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1071" y="679" key="scopes/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603286861812" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1603318404288">
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1603895842691">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603318404288" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603895842691" />
   </component>
 </project>

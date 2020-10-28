@@ -30,8 +30,13 @@ $gray3: #B6BAC6;
   color: $primary;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: $white;
+  position: relative;
 }
 
 .page-space {
@@ -131,7 +136,8 @@ nav {
 header {
   width: 100%;
   height: 540px;
-  background: linear-gradient(180deg, #0F1118 16.67%, rgba(16, 17, 24, 0.41) 100%), linear-gradient(90deg, rgba(61, 83, 164, 0.6) 0%, rgba(210, 174, 108, 0.6) 100.15%, rgba(255, 255, 255, 0) 100.16%, rgba(210, 174, 108, 0.6) 100.16%), url(../media/header-background.png);
+  background: linear-gradient(180deg, #0F1118 16.67%, rgba(16, 17, 24, 0.41) 100%), linear-gradient(90deg, rgba(61, 83, 164, 0.6) 0%, rgba(210, 174, 108, 0.6) 100.15%, rgba(255, 255, 255, 0) 100.16%, rgba(210, 174, 108, 0.6) 100.16%), url(../media/header-background.png) no-repeat;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1056,6 +1062,7 @@ footer {
   height: 150px;
   background: $black;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -1079,6 +1086,54 @@ footer {
       color: #ef007d;
     }
   }
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1.5em 1em;
+
+    img {
+      margin: 0 1.5em;
+      cursor: pointer;
+      filter: brightness(0.6);
+      transition: 0.4s;
+    }
+
+    img:hover {
+      filter: brightness(1);
+    }
+  }
+}
+
+/** SCROLLING POSITIONS **/
+.scrolling-position {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  z-index: 100;
+  left: 0;
+  pointer-events: none;
+}
+
+#scroll-who-are-we {
+  top: 28rem;
+}
+
+#scroll-what-we-do {
+  top: 132rem;
+}
+
+#scroll-client-results {
+  top: 239.5rem;
+}
+
+#scroll-our-industries {
+  top: 283rem;
+}
+
+#scroll-contact {
+  top: 534rem;
 }
 
 /** ANIMATIONS **/
