@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>100Media - Talent Management Agency</title>
 
         <link href="css/index.css" type="text/css" rel="stylesheet">
@@ -10,11 +11,25 @@
         <script src="js/slider.js" defer></script>
         <script src="js/videos.js" defer></script>
         <script src="js/scrolling.js" defer></script>
+        <script src="js/mobile-menu.js" defer></script>
     </head>
 
     <body>
         <nav class="page-space">
             <img scroll="top" class="logo" src="media/logo-large.png" alt="logo" width="220" height="65">
+
+            <svg class="ham hamRotate ham8" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+                <path
+                        class="line top"
+                        d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+                <path
+                        class="line middle"
+                        d="m 30,50 h 40" />
+                <path
+                        class="line bottom"
+                        d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+            </svg>
+
             <ul>
                 <li scroll="scroll-who-are-we">WHO ARE WE</li>
                 <li scroll="scroll-what-we-do">WHAT WE DO</li>
@@ -98,7 +113,7 @@
             <h2>WHY BRANDS AND INFLUENCERS LOVE TO <span>PARTNER</span> WITH US</h2>
             <p>We have created and scaled multiple 7 and 8 figure brands. On average our clients see 200% revenue increase and with that make a larger impact on others globally.</p>
             <p><strong>THE PROOF SAYS IT ALL</strong></p>
-            <img src="media/arrow-down.png" alt="arrow down" width="63" height="63">
+            <img scroll="scroll-client-results" src="media/arrow-down.png" alt="arrow down" width="63" height="63">
         </section>
 
         <div class="scrolling-position" id="scroll-client-results"></div>

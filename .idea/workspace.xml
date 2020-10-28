@@ -11,11 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4d1ba4f-bf11-46c6-9a56-ef86541c2968" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/scrolling.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/instagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/youtube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/mobile-menu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
@@ -102,7 +98,8 @@
       <workItem from="1603801686639" duration="2300000" />
       <workItem from="1603826722462" duration="2664000" />
       <workItem from="1603881746464" duration="2814000" />
-      <workItem from="1603894252837" duration="1739000" />
+      <workItem from="1603894252837" duration="3452000" />
+      <workItem from="1603905463285" duration="6352000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Added Header">
       <created>1603297223751</created>
@@ -160,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603828779475</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: Added social media icons&#10;feat: Added scrolling">
+      <created>1603896007876</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603896007876</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +192,8 @@
     <MESSAGE value="fix: Added remaining css to client results section" />
     <MESSAGE value="feat: Added remaining Sections" />
     <MESSAGE value="fix: Fixed whitespace&#10;feat: Added hover to slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: Fixed whitespace&#10;feat: Added hover to slider" />
+    <MESSAGE value="feat: Added social media icons&#10;feat: Added scrolling" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Added social media icons&#10;feat: Added scrolling" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -212,10 +217,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1127" y="606" key="VCS.ChangelistChooser/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603297167128" />
-    <state x="872" y="428" key="Vcs.Push.Dialog.v2" timestamp="1603828791169">
+    <state x="872" y="428" key="Vcs.Push.Dialog.v2" timestamp="1603896009136">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603828791169" />
+    <state x="872" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603896009136" />
     <state x="872" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1603795077962" />
     <state x="1097" y="609" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603739561016">
       <screen x="0" y="0" width="2560" height="1400" />
