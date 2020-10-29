@@ -1,5 +1,5 @@
-const sliderPrevious = document.querySelector("#slider-previous img");
-const sliderNext = document.querySelector("#slider-next img");
+const sliderPrevious = document.querySelector("#slider-previous");
+const sliderNext = document.querySelector("#slider-next");
 
 let slides = [];
 

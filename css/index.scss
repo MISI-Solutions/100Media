@@ -606,7 +606,7 @@ header {
 
 #client-results {
   width: 100%;
-  height: 700px;
+  height: 900px;
   background: linear-gradient(180deg, rgba(210, 174, 108, 0.2) 0%, rgba(255, 255, 255, 0) 100%), #0F1118;
   display: flex;
   flex-direction: column;
@@ -641,7 +641,8 @@ header {
   }
 
   div {
-    width: 900px;
+    max-width: 1200px;
+    width: 90%;
     margin-top: 5em;
     display: flex;
     justify-content: space-between;
@@ -649,37 +650,40 @@ header {
     position: relative;
 
     .slide {
-      width: 270px;
-      height: 270px;
+      width: 30%;
+      height: auto;
       filter: brightness(0.4);
-      cursor: pointer;
       margin-top: 0;
       position: relative;
+      cursor: default;
     }
 
     .slide.active {
-      width: 300px;
-      height: 300px;
+      width: 35%;
       filter: none;
       position: relative;
       transition: filter 0.8s ease;
       cursor: pointer;
+
+      img {
+        cursor: pointer;
+      }
     }
 
     .slide.hidden {
       display: none;
     }
 
-    .slide:hover::after {
+    .slide.active:hover::after {
       background: $primary;
       opacity: 0.7;
     }
 
-    .slide:hover::before {
+    .slide.active:hover::before {
       content: "VIEW CASE STUDY";
     }
 
-    .slide::after {
+    .slide.active::after {
       width: 100%;
       height: 100%;
       position: absolute;
@@ -688,7 +692,7 @@ header {
       content: "";
     }
 
-    .slide::before {
+    .slide.active::before {
       content: "";
       position: absolute;
       width: 100%;
@@ -708,15 +712,18 @@ header {
     img {
       width: 100%;
       height: 100%;
-      cursor: pointer;
     }
 
     #slider-previous {
-      width: 270px;
-      height: 270px;
+      width: 30%;
+      height: 85%;
       position: absolute;
       display: flex;
+      left: 0;
       align-items: center;
+      align-self: center;
+      margin-bottom: 2%;
+      cursor: pointer;
 
       img {
         width: 10.25px;
@@ -726,6 +733,7 @@ header {
         margin-left: 1em;
         cursor: pointer;
         transition: 0.4s;
+        margin-bottom: 1.5em;
       }
 
       img:hover {
@@ -734,13 +742,16 @@ header {
     }
 
     #slider-next {
-      width: 270px;
-      height: 270px;
+      width: 30%;
+      height: 85%;
       position: absolute;
       right: 0;
       display: flex;
       align-items: center;
+      align-self: center;
+      margin-bottom: 2%;
       justify-content: flex-end;
+      cursor: pointer;
 
       img {
         width: 10.25px;
@@ -749,6 +760,7 @@ header {
         margin-right: 1em;
         cursor: pointer;
         transition: 0.4s;
+        margin-bottom: 1.5em;
       }
 
       img:hover {
@@ -1292,10 +1304,42 @@ footer {
   }
 }
 
+@media (max-width: 1250px) {
+  #what-is-keeping-it-100 {
+    h2 {
+      font-size: 3em;
+      width: auto;
+    }
+
+    ul {
+      li {
+        width: auto;
+      }
+    }
+  }
+}
+
 @media (max-width: 1125px) {
   .page-space {
     padding-left: 60px;
     padding-right: 60px;
+  }
+
+  #what-we-do {
+    p {
+      width: 80%;
+    }
+  }
+
+  #why-brands-and-influencers-love-to-partner-with-us {
+    h2 {
+      font-size: 3em;
+      width: auto;
+    }
+
+    p {
+      width: 80%;
+    }
   }
 }
 
@@ -1354,6 +1398,36 @@ footer {
   #showcase {
     height: 600px;
   }
+
+  #what-is-keeping-it-100 {
+    ul {
+      li {
+        font-size: 1.3em;
+      }
+    }
+  }
+
+  #why-brands-and-influencers-love-to-partner-with-us {
+    height: 800px;
+  }
+
+  #client-results {
+    div {
+      .slide.active:hover::before {
+        font-size: 1em;
+      }
+    }
+
+    div {
+      #slider-previous {
+        margin-bottom: 12%;
+      }
+
+      #slider-next {
+        margin-bottom: 12%;
+      }
+    }
+  }
 }
 
 @media (max-width: 530px) {
@@ -1398,6 +1472,35 @@ footer {
   #showcase {
     height: 400px;
   }
+
+  #what-we-do {
+    h2 {
+      font-size: 3em;
+    }
+
+    p {
+      font-size: 1.3em;
+    }
+  }
+
+  #why-brands-and-influencers-love-to-partner-with-us {
+    p {
+      font-size: 1.3em;
+    }
+  }
+
+  #client-results {
+    height: 600px;
+
+    h2 {
+      font-size: 3em;
+    }
+
+    button {
+      width: 80%;
+      font-size: 1.3em;
+    }
+  }
 }
 
 @media (max-width: 400px) {
@@ -1433,5 +1536,9 @@ footer {
         }
       }
     }
+  }
+
+  #why-brands-and-influencers-love-to-partner-with-us {
+    height: 800px;
   }
 }
