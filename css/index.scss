@@ -883,8 +883,8 @@ header {
     }
 
     .video {
-      width: 556px;
-      height: 634px;
+      width: 20%;
+      height: 20%;
       position: relative;
       margin-left: 3em;
 
@@ -1341,6 +1341,42 @@ footer {
       width: 80%;
     }
   }
+
+  #our-industries {
+    .industry {
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 1em;
+
+      div.left, div.right {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        order: 1;
+
+        h4 {
+          margin: 0;
+          position: absolute;
+        }
+      }
+
+      .video {
+        margin: 1em 3em;
+        order: 2;
+      }
+    }
+
+    .industry:first-of-type {
+      margin-top: 5em;
+    }
+
+    .industry.right {
+      justify-content: center;
+    }
+  }
 }
 
 @media (max-width: 1000px) {
@@ -1499,6 +1535,19 @@ footer {
     button {
       width: 80%;
       font-size: 1.3em;
+    }
+  }
+
+  #our-industries {
+    h2 {
+      font-size: 3em;
+      width: auto;
+    }
+
+    .industry {
+      div.left, div.right {
+        transform: scale(0.7);
+      }
     }
   }
 }

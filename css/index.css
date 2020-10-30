@@ -787,8 +787,8 @@ header .side-content .element h3 {
   margin-right: 0.5rem;
 }
 #our-industries .industry .video {
-  width: 556px;
-  height: 634px;
+  width: 20%;
+  height: 20%;
   position: relative;
   margin-left: 3em;
 }
@@ -1181,6 +1181,35 @@ footer div img:hover {
   #why-brands-and-influencers-love-to-partner-with-us p {
     width: 80%;
   }
+
+  #our-industries .industry {
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+  #our-industries .industry div.left, #our-industries .industry div.right {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+  }
+  #our-industries .industry div.left h4, #our-industries .industry div.right h4 {
+    margin: 0;
+    position: absolute;
+  }
+  #our-industries .industry .video {
+    margin: 1em 3em;
+    order: 2;
+  }
+  #our-industries .industry:first-of-type {
+    margin-top: 5em;
+  }
+  #our-industries .industry.right {
+    justify-content: center;
+  }
 }
 @media (max-width: 1000px) {
   #who-are-we {
@@ -1300,6 +1329,14 @@ footer div img:hover {
   #client-results button {
     width: 80%;
     font-size: 1.3em;
+  }
+
+  #our-industries h2 {
+    font-size: 3em;
+    width: auto;
+  }
+  #our-industries .industry div.left, #our-industries .industry div.right {
+    transform: scale(0.7);
   }
 }
 @media (max-width: 400px) {

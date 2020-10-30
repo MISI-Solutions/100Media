@@ -15,7 +15,6 @@
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/slider.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +99,8 @@
       <workItem from="1603894252837" duration="3452000" />
       <workItem from="1603905463285" duration="6368000" />
       <workItem from="1603978813965" duration="4904000" />
-      <workItem from="1604008207617" duration="3222000" />
+      <workItem from="1604008207617" duration="3466000" />
+      <workItem from="1604040754297" duration="1691000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Added Header">
       <created>1603297223751</created>
@@ -186,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603983718281</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: made 4 more sections responsive">
+      <created>1604011448331</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604011448332</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +225,8 @@
     <MESSAGE value="feat: Added responsive navbar" />
     <MESSAGE value="feat: Made header responsive" />
     <MESSAGE value="feat: Made our mission responsive&#10;feat: Made who are we responsive&#10;feat: Made showcase responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Made our mission responsive&#10;feat: Made who are we responsive&#10;feat: Made showcase responsive" />
+    <MESSAGE value="feat: made 4 more sections responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: made 4 more sections responsive" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -242,10 +250,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1127" y="606" key="VCS.ChangelistChooser/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603297167128" />
-    <state x="872" y="428" key="Vcs.Push.Dialog.v2" timestamp="1603983719208">
+    <state x="872" y="428" key="Vcs.Push.Dialog.v2" timestamp="1604011449652">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603983719208" />
+    <state x="872" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1604011449652" />
     <state x="872" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1603795077962" />
     <state x="1097" y="609" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603739561016">
       <screen x="0" y="0" width="2560" height="1400" />
