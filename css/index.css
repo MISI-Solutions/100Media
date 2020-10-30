@@ -1163,6 +1163,14 @@ footer div img:hover {
   #what-is-keeping-it-100 ul li {
     width: auto;
   }
+
+  #testimonials {
+    height: 1000px;
+  }
+  #testimonials div:not(.video) .video {
+    width: 80%;
+    height: auto;
+  }
 }
 @media (max-width: 1125px) {
   .page-space {
@@ -1221,6 +1229,36 @@ footer div img:hover {
   }
   #who-are-we div img {
     display: none;
+  }
+
+  #contact {
+    height: 1500px;
+  }
+  #contact form {
+    margin-top: 10em;
+    width: 90%;
+  }
+  #contact form div {
+    text-align: center;
+    margin: 0;
+    height: 236px;
+    flex-direction: column;
+  }
+  #contact form div label {
+    margin: 0;
+  }
+  #contact form div label input {
+    width: 100%;
+  }
+  #contact form label {
+    width: 100%;
+  }
+  #contact form label textarea {
+    width: 100%;
+  }
+  #contact form #contact-send {
+    width: 100%;
+    padding: 1em 0;
   }
 }
 @media (max-width: 800px) {
@@ -1337,6 +1375,10 @@ footer div img:hover {
   }
   #our-industries .industry div.left, #our-industries .industry div.right {
     transform: scale(0.7);
+  }
+
+  #testimonials h2 {
+    font-size: 3em;
   }
 }
 @media (max-width: 400px) {

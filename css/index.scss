@@ -1317,6 +1317,17 @@ footer {
       }
     }
   }
+
+  #testimonials {
+    height: 1000px;
+
+    div:not(.video) {
+      .video {
+        width: 80%;
+        height: auto;
+      }
+    }
+  }
 }
 
 @media (max-width: 1125px) {
@@ -1390,6 +1401,43 @@ footer {
 
     div img {
       display: none;
+    }
+  }
+
+  #contact {
+    height: 1500px;
+
+    form {
+      margin-top: 10em;
+      width: 90%;
+
+      div {
+        text-align: center;
+        margin: 0;
+        height: 236px;
+        flex-direction: column;
+
+        label {
+          margin: 0;
+
+          input {
+            width: 100%;
+          }
+        }
+      }
+
+      label {
+        width: 100%;
+
+        textarea {
+          width: 100%;
+        }
+      }
+
+      #contact-send {
+        width: 100%;
+        padding: 1em 0;
+      }
     }
   }
 }
@@ -1548,6 +1596,12 @@ footer {
       div.left, div.right {
         transform: scale(0.7);
       }
+    }
+  }
+
+  #testimonials {
+    h2 {
+      font-size: 3em;
     }
   }
 }
