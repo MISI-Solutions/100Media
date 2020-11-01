@@ -12,9 +12,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a4d1ba4f-bf11-46c6-9a56-ef86541c2968" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/contact-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/contact-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/header-background.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/header-background.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +59,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\miste\PhpstormProjects\100media\media" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\miste\PhpstormProjects\100media\media" />
       <recent name="C:\Users\miste\PhpstormProjects\100media\media\slides" />
       <recent name="C:\Users\miste\PhpstormProjects\100media\js" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\miste\PhpstormProjects\100media\media" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -102,7 +103,7 @@
       <workItem from="1604008207617" duration="3466000" />
       <workItem from="1604040754297" duration="2306000" />
       <workItem from="1604089213724" duration="3811000" />
-      <workItem from="1604247309021" duration="3879000" />
+      <workItem from="1604247309021" duration="6106000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Added Header">
       <created>1603297223751</created>
@@ -216,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604249084044</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fix: Fixed whitespace on mobile view">
+      <created>1604253713812</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1604253713812</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +260,8 @@
     <MESSAGE value="feat: Made our industry section responsive" />
     <MESSAGE value="feat: Added more responsiveness" />
     <MESSAGE value="feat: added remaining responsiveness" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: added remaining responsiveness" />
+    <MESSAGE value="fix: Fixed whitespace on mobile view" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: Fixed whitespace on mobile view" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -276,11 +285,11 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1127" y="606" key="VCS.ChangelistChooser/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603297167128" />
-    <state x="872" y="428" key="Vcs.Push.Dialog.v2" timestamp="1604249091422">
+    <state x="872" y="428" key="Vcs.Push.Dialog.v2" timestamp="1604253715026">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="872" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1604093163561" />
-    <state x="872" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1604249091422" />
+    <state x="872" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1604253715026" />
     <state x="1097" y="609" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603739561016">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
