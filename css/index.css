@@ -12,6 +12,11 @@
   cursor: default;
 }
 
+/* DEBUG * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}*/
 ::-webkit-scrollbar {
   display: none;
 }
@@ -28,6 +33,9 @@ html {
 body {
   background: #f2f5ff;
   position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 .page-space {
@@ -1240,6 +1248,9 @@ footer div img:hover {
   #contact {
     height: 1500px;
   }
+  #contact h2 {
+    width: auto;
+  }
   #contact form {
     margin-top: 10em;
     width: 90%;
@@ -1271,6 +1282,9 @@ footer div img:hover {
     width: auto;
   }
 
+  #testimonials h2 {
+    width: auto;
+  }
   #testimonials div:not(.video) {
     flex-direction: column;
     justify-content: center;
@@ -1278,6 +1292,10 @@ footer div img:hover {
   }
   #testimonials div:not(.video) .video {
     margin-top: 2em;
+  }
+
+  #client-results h2 {
+    width: auto;
   }
 }
 @media (max-width: 800px) {

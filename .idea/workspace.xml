@@ -102,7 +102,7 @@
       <workItem from="1604008207617" duration="3466000" />
       <workItem from="1604040754297" duration="2306000" />
       <workItem from="1604089213724" duration="3811000" />
-      <workItem from="1604247309021" duration="1755000" />
+      <workItem from="1604247309021" duration="3879000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Added Header">
       <created>1603297223751</created>
@@ -209,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604093162233</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat: added remaining responsiveness">
+      <created>1604249084044</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604249084044</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +251,8 @@
     <MESSAGE value="feat: made 4 more sections responsive" />
     <MESSAGE value="feat: Made our industry section responsive" />
     <MESSAGE value="feat: Added more responsiveness" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Added more responsiveness" />
+    <MESSAGE value="feat: added remaining responsiveness" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: added remaining responsiveness" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -268,11 +276,11 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1127" y="606" key="VCS.ChangelistChooser/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603297167128" />
-    <state x="872" y="428" key="Vcs.Push.Dialog.v2" timestamp="1604093163561">
+    <state x="872" y="428" key="Vcs.Push.Dialog.v2" timestamp="1604249091422">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="872" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1604093163561" />
-    <state x="872" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1603795077962" />
+    <state x="872" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1604249091422" />
     <state x="1097" y="609" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603739561016">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

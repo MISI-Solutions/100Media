@@ -21,6 +21,12 @@ $gray3: #B6BAC6;
   cursor: default;
 }
 
+/* DEBUG * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}*/
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -37,6 +43,9 @@ html {
 body {
   background: $white;
   position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 .page-space {
@@ -1412,6 +1421,10 @@ footer {
   #contact {
     height: 1500px;
 
+    h2 {
+      width: auto;
+    }
+
     form {
       margin-top: 10em;
       width: 90%;
@@ -1455,6 +1468,10 @@ footer {
   }
 
   #testimonials {
+    h2 {
+      width: auto;
+    }
+
     div:not(.video) {
       flex-direction: column;
       justify-content: center;
@@ -1463,6 +1480,12 @@ footer {
       .video {
         margin-top: 2em;
       }
+    }
+  }
+
+  #client-results {
+    h2 {
+      width: auto;
     }
   }
 }
