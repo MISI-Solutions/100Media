@@ -1071,11 +1071,11 @@ footer div img:hover {
 }
 
 #scroll-our-industries {
-  top: 283rem;
+  top: 295rem;
 }
 
 #scroll-contact {
-  top: 534rem;
+  top: 630rem;
 }
 
 /** ANIMATIONS **/
@@ -1349,6 +1349,26 @@ footer div img:hover {
   }
   #client-results div #slider-next {
     margin-bottom: 12%;
+  }
+
+  #scroll-who-are-we {
+    top: 48rem;
+  }
+
+  #scroll-what-we-do {
+    top: 156rem;
+  }
+
+  #scroll-client-results {
+    top: 280rem;
+  }
+
+  #scroll-our-industries {
+    top: 332rem;
+  }
+
+  #scroll-contact {
+    top: 1053rem;
   }
 }
 @media (max-width: 530px) {
