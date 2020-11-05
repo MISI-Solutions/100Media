@@ -11,10 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4d1ba4f-bf11-46c6-9a56-ef86541c2968" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site.webmanifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +63,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\miste\PhpstormProjects\100media\media" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\miste\PhpstormProjects\100media" />
       <recent name="C:\Users\miste\PhpstormProjects\100media\media" />
       <recent name="C:\Users\miste\PhpstormProjects\100media\media\slides" />
       <recent name="C:\Users\miste\PhpstormProjects\100media\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\miste\PhpstormProjects\100media\media" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -104,7 +110,10 @@
       <workItem from="1604089213724" duration="3811000" />
       <workItem from="1604247309021" duration="6127000" />
       <workItem from="1604361663651" duration="4000" />
-      <workItem from="1604442763992" duration="333000" />
+      <workItem from="1604442763992" duration="374000" />
+      <workItem from="1604501524935" duration="51000" />
+      <workItem from="1604503387958" duration="14000" />
+      <workItem from="1604575057739" duration="118000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Added Header">
       <created>1603297223751</created>
@@ -232,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604256073568</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fix: Scrolling on mobile">
+      <created>1604443108064</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1604443108064</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +286,8 @@
     <MESSAGE value="feat: added remaining responsiveness" />
     <MESSAGE value="fix: Fixed whitespace on mobile view" />
     <MESSAGE value="feat: Optimized website to chrome lighthouse" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Optimized website to chrome lighthouse" />
+    <MESSAGE value="fix: Scrolling on mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: Scrolling on mobile" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -294,11 +311,11 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1127" y="606" key="VCS.ChangelistChooser/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1603297167128" />
-    <state x="872" y="428" key="Vcs.Push.Dialog.v2" timestamp="1604256074522">
+    <state x="872" y="428" key="Vcs.Push.Dialog.v2" timestamp="1604443128669">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="872" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-2560.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1604093163561" />
-    <state x="872" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1604256074522" />
+    <state x="872" y="428" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.2560.1400/-2560.0.2560.1400@0.0.2560.1400" timestamp="1604443128669" />
     <state x="1097" y="609" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603739561016">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
